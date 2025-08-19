@@ -1,0 +1,12 @@
+opencv-python
+mediapipe
+deepface
+numpy
+pyttsx3
+sounddevice
+librosa
+matplotlib
+scipy
+torch
+tensorflow-macos
+tensorflow-metal

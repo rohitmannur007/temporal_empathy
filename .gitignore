@@ -2,4 +2,7 @@ touch .gitignore
 echo "venv/
 __pycache__/
 *.pyc
-.DS_Store" >> .gitignore
+.DS_Store" >> .gitignorevenv/
+__pycache__/
+*.pyc
+.DS_Store
