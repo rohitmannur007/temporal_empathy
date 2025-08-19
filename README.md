@@ -15,3 +15,140 @@ A **real-time AI system** that detects emotions, body poses, and voice sentiment
 ---
 
 ## 🛠️ Folder Structure
+temporal_empathy/
+│
+├─ temporal_empathy/      # Python source files
+│   ├─ main.py
+│   ├─ emotion_detector.py
+│   ├─ pose_detector.py
+│   ├─ voice_analyzer.py
+│   └─ dashboard.py
+├─ requirements.txt       # Dependencies
+├─ README.md
+└─ venv/                  # Virtual environment (ignored in Git
+
+
+---
+
+## ⚡ Requirements
+
+Install Python 3.11 or later.  
+
+**Dependencies (cross-platform):**
+opencv-python
+mediapipe
+deepface
+numpy
+pyttsx3
+sounddevice
+librosa
+matplotlib
+scipy
+torch
+tensorflow
+
+
+> For Mac M1/M2, replace `tensorflow` with:
+>
+> tensorflow-macos
+tensorflow-metal
+>
+> ---
+
+## 🚀 Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/rohitmannur007/temporal_empathy.git
+cd temporal_empathy
+
+	2.	Create and activate a virtual environment:
+python3.11 -m venv venv
+source venv/bin/activate   # Mac/Linux
+# .\venv\Scripts\activate  # Windows
+
+
+	3.	Upgrade pip and install dependencies:
+pip install --upgrade pip
+pip install -r requirements.txt
+
+🎬 How to Run
+source venv/bin/activate   # Mac/Linux
+# .\venv\Scripts\activate  # Windows
+
+python temporal_empathy/main.py
+
+	•	The webcam opens and detects facial emotions and body poses.
+	•	Microphone analyzes voice sentiment every 3 seconds.
+	•	Emotional dashboard shows a real-time map of all detected emotions.
+	•	Press ESC to exit.
+
+⸻
+
+💡 Future Enhancements
+	•	Multi-person tracking
+	•	Gesture-based AI suggestions
+	•	Integration with AR/VR for immersive emotional interaction
+	•	Logging and analytics for emotion trends over time
+
+⸻
+
+📝 License
+
+MIT License © 2025 Rohit Mannur
+
+⸻
+
+🔗 Contact
+	•	GitHub: rohitmannur007
+
+	•	The webcam opens and detects facial emotions and body poses.
+	•	Microphone analyzes voice sentiment every 3 seconds.
+	•	Emotional dashboard shows a real-time map of all detected emotions.
+	•	Press ESC to exit.
+
+⸻
+
+💡 Future Enhancements
+	•	Multi-person tracking
+	•	Gesture-based AI suggestions
+	•	Integration with AR/VR for immersive emotional interaction
+	•	Logging and analytics for emotion trends over time
+
+⸻
+
+📝 License
+
+MIT License © 2025 Rohit Mannur
+
+⸻
+
+🔗 Contact
+	•	GitHub: rohitmannur007
+
+	•	The webcam opens and detects facial emotions and body poses.
+	•	Microphone analyzes voice sentiment every 3 seconds.
+	•	Emotional dashboard shows a real-time map of all detected emotions.
+	•	Press ESC to exit.
+
+⸻
+
+💡 Future Enhancements
+	•	Multi-person tracking
+	•	Gesture-based AI suggestions
+	•	Integration with AR/VR for immersive emotional interaction
+	•	Logging and analytics for emotion trends over time
+
+⸻
+
+📝 License
+
+MIT License © 2025 Rohit Mannur
+
+⸻
+
+🔗 Contact
+	•	GitHub: rohitmannur007
+---
+
